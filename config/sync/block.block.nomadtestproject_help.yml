@@ -1,0 +1,22 @@
+uuid: b9984960-fb33-43c2-9589-9b6b93d72341
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - nomadtestproject
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: nomadtestproject_help
+theme: nomadtestproject
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

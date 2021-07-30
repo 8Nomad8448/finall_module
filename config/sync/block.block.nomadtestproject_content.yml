@@ -1,0 +1,22 @@
+uuid: a35f12cd-64f1-4972-8b6a-642cdcbd3a10
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nomadtestproject
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: nomadtestproject_content
+theme: nomadtestproject
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

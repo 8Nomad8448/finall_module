@@ -1,0 +1,20 @@
+uuid: 6ce3083b-a2f9-488d-84cd-7f674e23723b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - nomadtestproject
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: nomadtestproject_page_title
+theme: nomadtestproject
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

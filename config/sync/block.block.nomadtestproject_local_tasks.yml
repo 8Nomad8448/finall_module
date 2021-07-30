@@ -1,0 +1,22 @@
+uuid: 28389f32-accf-4770-a192-2c3d038ea772
+langcode: en
+status: false
+dependencies:
+  theme:
+    - nomadtestproject
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: nomadtestproject_local_tasks
+theme: nomadtestproject
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
